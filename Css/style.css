@@ -624,25 +624,95 @@ width: 300px;
 /* Processing
 ------------------------------------*/
 
-.processing-text{
-    width: 100%; 
+.processing-textL{
+    width: 50%; 
     position: relative;
     top: 250px;
     margin-left: 310px;
+    float: left;
 }
 
-.processing-text h1{
+.processing-textL h1{
     font-size: 43px;
     width: 640px;
     position: relative;
     margin-left: 40px;
 }
 
-.processing-text p{
+.processing-textL p{
     width: 100%;
     font-size: 20px;
     margin: 30px 0 30px 40px;
     line-height: 25px;
-    color: #919191;
-    
+    color: #919191;   
+}
+
+.processing-textR{
+    width: 50%; 
+    position: relative;
+    top: 250px;
+    margin-left: 200px;
+    float: right;
+    text-align: right;
+}
+
+.processing-textR h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.processing-textR p{
+    width: 650px;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;   
+}
+
+
+
+
+.processing2-picture{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.processing2-picture img{
+    width: 100%;
+    height: 50%;
+    width: 60%;
+    padding-left: 150px;
+    margin-top: 150px;
+}
+
+
+.processing3-picture{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.processing3-picture img{
+    width: 100%;
+    height: 50%;
+    width: 60%;
+    padding-left: 300px;
+    margin-top: 105px;
+}
+
+.processing4-picture{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.processing4-picture img{
+    width: 100%;
+    height: 50%;
+    width: 60%;
+    padding-left: 150px;
+    margin-top: 130px;
 }

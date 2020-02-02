@@ -70,6 +70,19 @@ nav ul li.active a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.title h1{
+    color: #131B23;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title-home h1{
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
 
 .picture{
     width: 50%;
@@ -77,7 +90,6 @@ nav ul li.active a{
 }
 
 .picture img{
-    float: center;
     width:100%;
     margin-top:-0;
     padding-left: 50px;
@@ -112,11 +124,6 @@ nav ul li.active a{
     height: 700px;
     color: #131B23;
 }
-.title h1{
-    color: #131B23;
-    font-size: 70px;
-    text-align: center;
-}
 
 .about-text{
     width: 50%; 
@@ -127,35 +134,34 @@ nav ul li.active a{
 
 .about-text h1{
     font-size: 43px;
-    width: 640px;
+    width: 650px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 300px;
 }
+
 
 .about-text p{
     width: 650px;
     font-size: 25px;
     margin: 30px 0 30px 40px;
-    margin-left: 20;
+    margin-left: 300px;
     line-height: 25px;
     color: #919191;
-    text-transform: lowercase;
 }
 
 .about-picture{
     width: 50%;
     float: right;
     position: relative;
-    top: 150px;
-    
+    top: 310px;
 }
 
 .about-picture img{
     width: 100%;
     height: 50%;
     width: 60%;
-    margin-top: -20px;
-    padding-left: 90px;
+    margin-top: -25px;
+    padding-left: 250px;
 }
 
 .rotate90 {
@@ -179,35 +185,29 @@ nav ul li.active a{
 
 .education h1{
     font-size: 43px;
-    width: 640px;
+    width: 650px;
     position: relative;
-    margin-left: -80px;
 }
 
 .education h3{
     font-size: 30px;
-    width: 640px;
+    width: 650px;
     position: relative;
-    margin-left: 40px;
 }
 
-.education-date h4{
-    font-size: 30px;
-    width: 640px;
-    position: relative;
-    margin-left: 40px;
-    float: left;
+.education h4{
+    font-size: 25px;
+    width: 650px;
+    position: relative; 
 }
 
 
 .education p{
     width: 650px;
     font-size: 20px;
-    margin: 30px 0 30px 40px;
-    margin-left: 20;
+    margin: 30px 40px 30px 0 ;
     line-height: 25px;
     color: #919191;
-    text-transform: lowercase;
 }
 
 .education-picture{
@@ -223,7 +223,7 @@ nav ul li.active a{
     height: 35%;
     width: 45%;
     margin-top: -215px;
-    padding-left: 200px;
+    padding-left: 300px;
 }
 
 .rotate360 {
@@ -242,7 +242,7 @@ nav ul li.active a{
     float: left;
     position: relative;
     top: 320px;
-    padding-left: 50px;
+    padding-left: 200px;
 }
 .work-text{
     width: 50%; 
@@ -255,31 +255,115 @@ nav ul li.active a{
     font-size: 43px;
     width: 640px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 110px;
 }
 
 .work-text h3{
     font-size: 30px;
     width: 640px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 110px;
 }
 
 .work-text h4{
-    font-size: 30px;
+    font-size: 25px;
     width: 640px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 110px;
 }
 
 .work-text p{
     width: 650px;
     font-size: 20px;
     margin: 30px 0 30px 40px;
-    margin-left: 20;
+    margin-left: 110px;
     line-height: 25px;
     color: #919191;
-    text-transform: lowercase;
+}
+
+
+
+.OL-picture{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-right: -115px;
+    margin-top: 135px;
+}
+
+
+.OL-picture img{
+    height: 140px;
+    width: auto;
+    padding-left: 220px;
+}
+
+.VEB-picture{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-left: 200px;
+}
+
+.VEB-picture img{
+    height: 90px;
+    width: 400px;
+    margin-top: 120px;
+    padding-left: 220px;
+}
+
+
+
+/* Skills
+------------------------------------*/
+.skills-left{
+    width: 50%; 
+    position: relative;
+    top: 500px;
+    padding-left: 310px;
+    float: left;
+}
+
+.skills-left h1{
+    font-size: 43px;
+    width: 650px;
+    position: relative;
+}
+
+.skills-left h3{
+    font-size: 30px;
+    width: 650px;
+    position: relative;
+}
+.skills-left p{
+    width: 650px;
+    font-size: 20px;
+    margin: 30px 40px 30px 0 ;
+    line-height: 25px;
+    color: #919191;
+}
+
+.skills-right{
+    width: 50%; 
+    position: relative;
+    top: -90px;
+    padding-left: 50px;
+    float: right;
+    text-align: right;
+}
+
+.skills-right h3{
+    font-size: 30px;
+    width: 650px;
+    position: relative;
+}
+
+.skills-right p{
+    width: 650px;
+    font-size: 20px;
+    margin: 30px 40px 30px 0 ;
+    line-height: 25px;
+    color: #919191;
 }
 
 
@@ -287,13 +371,6 @@ nav ul li.active a{
 
 /* Projects
 ------------------------------------*/
-.title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top:-400%;
-    transform: translate(-50%, -50%);
-}
 
 .projects-section{
     max-width: 100%;
@@ -343,9 +420,8 @@ nav ul li.active a{
 
 .projects-img-1{
     background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
-    url(../Images/07A_VanFulpen.jpg);
+    url(../Images/Exhibition/Exhibition1.jpg);
     background-size: cover;
-  
 }
 
 .projects-img-2{
@@ -388,8 +464,71 @@ nav ul li.active a{
     color: #ffffff;
     padding: 4px 5px;
     margin: 0 30px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 2px;
+}
+
+/* Artworks
+------------------------------------*/
+.exhibition-title h1{
+        font-size: 43px;
+        width: 100%;
+        position: relative;
+        top: 100px;
+        margin-left: 785px;
+}
+
+.exhibition { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin-top: 100px;
+    margin-left: 300px;
+    }
+
+.exhibition img {
+    width: 250px;
+}
+
+
+.exhibition-text{
+    width: 100%; 
+    position: relative;
+    margin-left: 310px;
+}
+
+.exhibition-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.exhibition-text p{
+    width: 100%;
+    font-size: 25px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+    
+}
+
+.artworks-title h1{
+    font-size: 43px;
+    width: 100%;
+    position: relative;
+    margin-left: 886px;
+}
+
+.artworks { 
+display: grid; 
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+margin-left: 140px;
+
+}
+
+.artworks img {
+width: 300px;
 }
 
 
@@ -401,6 +540,7 @@ nav ul li.active a{
     width: 100%; 
     position: relative;
     top: 250px;
+    margin-left: 310px;
 }
 
 .sweaters-text h1{
@@ -414,10 +554,8 @@ nav ul li.active a{
     width: 100%;
     font-size: 20px;
     margin: 30px 0 30px 40px;
-    margin-left: 310px;
     line-height: 25px;
     color: #919191;
-    text-transform: lowercase;
     
 }
 
@@ -438,6 +576,7 @@ nav ul li.active a{
     float: center;
 }
 
+
 /* Snapchat
 ------------------------------------*/
 
@@ -445,6 +584,7 @@ nav ul li.active a{
     width: 100%; 
     position: relative;
     top: 250px;
+    margin-left: 310px;
 }
 
 .snapchat-text h1{
@@ -458,10 +598,8 @@ nav ul li.active a{
     width: 100%;
     font-size: 20px;
     margin: 30px 0 30px 40px;
-    margin-left: 310px;
     line-height: 25px;
     color: #919191;
-    text-transform: lowercase;
     
 }
 
@@ -480,4 +618,31 @@ nav ul li.active a{
     margin-top: -20px;
    margin-left: -200px;
     float: center;
+}
+
+
+/* Processing
+------------------------------------*/
+
+.processing-text{
+    width: 100%; 
+    position: relative;
+    top: 250px;
+    margin-left: 310px;
+}
+
+.processing-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.processing-text p{
+    width: 100%;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+    
 }

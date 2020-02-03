@@ -62,6 +62,20 @@ nav ul li.active a{
     color: rgb(105, 204, 183);
 }
 
+footer{
+ 
+    position: relative;
+			margin-top: -100px;
+			height: 25;
+		
+			clear: both;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
 /* Home
 ------------------------------------*/
 .Home-title{
@@ -86,7 +100,6 @@ nav ul li.active a{
 
 .picture{
     width: 50%;
-    float: center;
 }
 
 .picture img{
@@ -109,6 +122,216 @@ nav ul li.active a{
 
 }
 
+.amp {
+    font-family:Garamond,Baskerville,Georgia,serif !important;
+    font-style:italic;
+    font-weight:normal;
+    border: none;
+}
+
+a.polaroid {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 10px 20px 10px;
+    width: 150px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    z-index: 2;
+    font-size: 0.7em;
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+}
+a.polaroid:hover,
+a.polaroid:focus,
+a.polaroid:active {
+    z-index: 999;
+    border-color: #6A6A6A;
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.polaroid img {
+    margin: 0 0 15px;
+    width: 150px;
+    height: 150px;
+}
+
+a img {
+    border: none;
+    display: block;
+}
+
+.photo-album {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
+    margin-top:160px;
+}
+
+.photo-album .polaroid {
+    position: absolute;
+}
+.photo-album h1 {
+    position: absolute;
+    z-index: 5;
+    top: 150px;
+    text-align: center;
+    width: 100%;
+    line-height: 1.9;
+}
+.photo-album h1 span {
+    background-color: white;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    padding: 0.4em 0.8em 0.3em 0.8em;
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    border: 1px solid #6A6A6A;
+}
+.photo-album .small {
+    width: 75px;
+    padding: 6px 6px 12px 6px;
+    font-size: 0.6em;
+}
+.photo-album .small img {
+    width: 75px;
+    height: 75px;
+}
+.photo-album .medium {
+    width: 200px;
+    padding: 13px 13px 26px 13px;
+    font-size: 0.8em;
+}
+.photo-album .medium img {
+    width: 200px;
+    height: 200px;
+}
+.photo-album .large {
+    width: 300px;
+    padding: 20px 20px 30px 20px;
+    font-size: 1em;
+}
+.photo-album .large img {
+    width: 300px;
+    height: 300px;
+}
+.photo-album .img1 {
+    bottom: 10px;
+    right: 365px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.photo-album .img2 {
+    top: 50px;
+    right: 20px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+.photo-album .img3 {
+    left: 400px;
+    top: 0;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.photo-album .img4 {
+    top: 10px;
+    left: 495px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.photo-album .img5 {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    transform: rotate(1deg);
+}
+.photo-album .img6 {
+    bottom: 10px;
+    right: 156px;
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+.photo-album .img7 {
+    bottom:0;
+    left:400px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.photo-album .img8 {
+    bottom: -20px;
+    left: 700px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+.photo-album .img9 {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+.photo-album .img10 {
+    top: 0;
+    left: 20px;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    transform: rotate(8deg);
+}
+.photo-album .img11 {
+    top: 0;
+    right: 0;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+.photo-album .img12 {
+    top: 0;
+    left: 680px;
+    -webkit-transform: rotate(18deg);
+    -moz-transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+.photo-album .img13 {
+    bottom: -20px;
+    right: 630px;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+.photo-album .img14 {
+    top: 90px;
+    left: 430px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.photo-album .img15 {
+    left:176px;
+    top:20px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+a:hover,
+a:focus {
+    z-index: 5;
+}
 
 /* About
 ------------------------------------*/
@@ -164,6 +387,7 @@ nav ul li.active a{
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
 
 /* Education
 ------------------------------------*/
@@ -433,7 +657,6 @@ nav ul li.active a{
     background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)),
     url(../Images/Processing.png);
     background-size: cover;
-    
 }
 
 .projects-info{
@@ -482,7 +705,6 @@ nav ul li.active a{
     width: 250px;
 }
 
-
 .exhibition-text{
     width: 100%; 
     position: relative;
@@ -517,7 +739,6 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 margin-left: 140px;
-
 }
 
 .artworks img {
@@ -549,7 +770,6 @@ width: 300px;
     margin: 30px 0 30px 40px;
     line-height: 25px;
     color: #919191;
-    
 }
 
 .sweaters-picture{
@@ -557,7 +777,6 @@ width: 300px;
     position: relative;
     margin-left: 25%;
     top: 300px;
-    
 }
 
 .sweaters-picture img{
@@ -566,7 +785,6 @@ width: 300px;
     width: 150%;
     margin-top: -20px;
    margin-left: -220px;
-    float: center;
 }
 
 
@@ -609,8 +827,23 @@ width: 300px;
     height: 100%;
     width: 110%;
     margin-top: -20px;
-   margin-left: -200px;
-    float: center;
+    margin-left: -300px;
+    float: left;
+}
+
+.snapchat-picture1{
+    width: 50%;
+    position: relative;
+    margin-left: 50%;
+    top: 300px;
+}
+
+.snapchat-picture1 img{
+    width: 45%;
+    height: 100%;
+    margin-top: -8px;
+    padding-right: 20%;
+    float: right;
 }
 
 
@@ -664,9 +897,6 @@ width: 300px;
     color: #919191;   
 }
 
-
-
-
 .processing2-picture{
     width: 50%;
     float: right;
@@ -680,7 +910,6 @@ width: 300px;
     padding-left: 150px;
     margin-top: 150px;
 }
-
 
 .processing3-picture{
     width: 50%;

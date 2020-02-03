@@ -97,23 +97,16 @@ nav ul li.active a{
 }
 
 .social-icons{
-    right: 72px;
-    bottom: 35px;
-    position: absolute;
+    left: 95%;
+    top: 80%;
+    position: fixed;
+    width: 40px;
+    height: 40px;
 }
 
-.social-icons ul{
-    list-style: none;
-    margin-top: 15px;
-    text-align: center;
-}
+.social-icons img{
+    width: 40px;
 
-.social-icons ul a{
-    color: #131B23;
-    border-radius: 50%;
-    border: 1px solid #131B23;
-    padding: 5px;
-    display: block;
 }
 
 
@@ -715,4 +708,36 @@ width: 300px;
     width: 60%;
     padding-left: 150px;
     margin-top: 130px;
+}
+
+
+/* Contact
+------------------------------------*/
+
+.contactL{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-top: 260px;
+}
+
+.contactL img{
+    height: 200px;
+    width: auto;
+    padding-left: 400px;
+}
+
+
+.contactR{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-top: 135px;
+}
+
+
+.contactR img{
+    height: 200px;
+    width: auto;
+    padding-left: 400px;
 }
